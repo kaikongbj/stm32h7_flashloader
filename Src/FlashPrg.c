@@ -105,11 +105,11 @@ int Init(U32 Addr, U32 Freq, U32 Func) {
   clock_setup();
 
   gpio_set_qspi(GPIOA_BASE,'B',2,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'B',6,GPIOx_PUPDR_NOPULL, 0xA);
-  gpio_set_qspi(GPIOA_BASE,'D',11,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'D',12,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'D',13,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'E',2,GPIOx_PUPDR_NOPULL, 0x9);
+  gpio_set_qspi(GPIOA_BASE,'C',11,GPIOx_PUPDR_NOPULL, 0x9);
+  gpio_set_qspi(GPIOA_BASE,'E',7,GPIOx_PUPDR_NOPULL, 0xA);
+  gpio_set_qspi(GPIOA_BASE,'E',8,GPIOx_PUPDR_NOPULL, 0xA);
+  gpio_set_qspi(GPIOA_BASE,'E',10,GPIOx_PUPDR_NOPULL, 0xA);
+  gpio_set_qspi(GPIOA_BASE,'E',9,GPIOx_PUPDR_NOPULL, 0xA);
 
   quadspi_init(0, (void *)QUADSPI_BASE);
 

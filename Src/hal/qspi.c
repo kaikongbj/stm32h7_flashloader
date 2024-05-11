@@ -148,7 +148,7 @@ void quadspi_init(struct qspi_params *params, void *base)
 {
 	uint32_t reg;
 
-	QUADSPI_CR = QUADSPI_CR_FTHRES(0);
+	QUADSPI_CR = QUADSPI_CR_FTHRES(0)|QUADSPI_CR_FSEL;
 
 	quadspi_busy_wait(base);
 

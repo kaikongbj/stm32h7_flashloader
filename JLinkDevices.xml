@@ -998,7 +998,8 @@
   </Device>
   <Device>
     <ChipInfo Vendor="ST" Name="STM32H750VB" Core="JLINK_CORE_CORTEX_M7" />
-    <FlashBankInfo Name="QSPI_PE2_PB2_PD11_PD12_PD13_PB6" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32H7/FlashLoader.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <FlashBankInfo Name="QSPI_KT7035" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32H7/QSPI_PE2_PB2_PD11_PD12_PD13_PB6.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    <FlashBankInfo Name="QSPI_KB1280" BaseAddr="0x90000000" MaxSize="0x01000000" Loader="Devices/ST/STM32H7/QSPI_PE9_PB12_PE7_PE8_PE10_PC11.elf" LoaderType="FLASH_ALGO_TYPE_OPEN" />
   </Device>
   <!--       -->
   <!-- Zilog -->

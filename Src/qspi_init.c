@@ -136,16 +136,16 @@ void clock_setup(void)
 
 }
 
-void qspi_init(void)
-{
+//void qspi_init(void)
+//{
 
 
-  gpio_set_qspi(GPIOA_BASE,'B',2,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'B',6,GPIOx_PUPDR_NOPULL, 0xA);
-  gpio_set_qspi(GPIOA_BASE,'D',11,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'D',12,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'D',13,GPIOx_PUPDR_NOPULL, 0x9);
-  gpio_set_qspi(GPIOA_BASE,'E',2,GPIOx_PUPDR_NOPULL, 0x9);
+//  gpio_set_qspi(GPIOA_BASE,'B',2,GPIOx_PUPDR_NOPULL, 0x9);
+//  gpio_set_qspi(GPIOA_BASE,'B',6,GPIOx_PUPDR_NOPULL, 0xA);
+//  gpio_set_qspi(GPIOA_BASE,'D',11,GPIOx_PUPDR_NOPULL, 0x9);
+//  gpio_set_qspi(GPIOA_BASE,'D',12,GPIOx_PUPDR_NOPULL, 0x9);
+//  gpio_set_qspi(GPIOA_BASE,'D',13,GPIOx_PUPDR_NOPULL, 0x9);
+//  gpio_set_qspi(GPIOA_BASE,'E',2,GPIOx_PUPDR_NOPULL, 0x9);
 
-  quadspi_init(0, (void *)QUADSPI_BASE);
-}
+//  quadspi_init(0, (void *)QUADSPI_BASE);
+//}
